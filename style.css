@@ -1,0 +1,95 @@
+
+        /* margins and padding made for 75% chrome browser view */
+
+        header {
+            font-size: 8rem;
+            color: rgb(12, 77, 82);
+            text-align: left;
+            margin-left: 65px;
+        }
+
+        .intro {
+            border-width: thick;
+            border-style: solid;
+            border-color: rgb(29, 44, 1);
+            padding: 100pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 50pt;
+            margin-right: 300pt;
+            background-color: darkcyan;
+            color: rgb(255, 255, 255);
+            
+        }
+        
+        .sum {
+            border-width: thick;
+            border-style: solid;
+            border-color: rgb(209, 61, 6);
+            padding: 100pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 50pt;
+            margin-right: 300pt;
+            background-color: darkcyan;
+            color: rgb(255, 255, 255);
+        
+        }
+
+        
+        
+        .unordered{
+
+            border-width: thick;
+            border-style: solid;
+            border-color: rgb(247, 41, 5);
+            padding: 30pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 400pt;
+            margin-right: 450pt;    
+            background-color: rgb(172, 19, 2);
+            color: rgb(255, 255, 255);
+            
+            
+        
+        }
+        .ordered {
+            
+            border-width: thick;
+            border-style: solid;
+            border-color: rgb(5, 191, 247);
+            padding: 30pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 400pt;
+            margin-right: 450pt;
+            background-color: rgb(39, 99, 211);
+            color: rgb(255, 255, 255);
+        }
+        
+        .review {
+
+            border-width: 7px;
+            border-style: dashed;
+            border-color: rgb(132, 168, 245);
+            border-radius: 25pt;
+            padding: 100pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 50pt;
+            margin-right: 300pt;
+            background-color: rgb(245, 240, 176);
+            color: rgb(26, 8, 148);
+        }
+        
