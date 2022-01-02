@@ -1,6 +1,11 @@
 
         /* margins and padding made for 75% chrome browser view */
 
+        p {
+            font-size: 1.2rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         header {
             font-size: 8rem;
             color: rgb(12, 77, 82);
@@ -40,7 +45,15 @@
         
         }
 
+      
         
+
+        
+
+        ul {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+        }
         
         .unordered{
 
@@ -52,14 +65,21 @@
             padding-bottom: 25pt;
             margin-bottom: 20pt;
             margin-top: 10pt;
-            margin-left: 400pt;
-            margin-right: 450pt;    
+            margin-left: 200pt;
+            margin-right: 650pt;    
             background-color: rgb(172, 19, 2);
             color: rgb(255, 255, 255);
             
             
+            
         
         }
+
+        ol {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+        }
+
         .ordered {
             
             border-width: thick;
@@ -70,15 +90,15 @@
             padding-bottom: 25pt;
             margin-bottom: 20pt;
             margin-top: 10pt;
-            margin-left: 400pt;
-            margin-right: 450pt;
+            margin-left: 600pt;
+            margin-right: 250pt;
             background-color: rgb(39, 99, 211);
             color: rgb(255, 255, 255);
         }
         
         .review {
 
-            border-width: 7px;
+            border-width: 5px;
             border-style: dashed;
             border-color: rgb(132, 168, 245);
             border-radius: 25pt;
@@ -90,6 +110,10 @@
             margin-left: 50pt;
             margin-right: 300pt;
             background-color: rgb(245, 240, 176);
-            color: rgb(26, 8, 148);
+            color: rgb(18, 7, 95);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            
+            
         }
         
