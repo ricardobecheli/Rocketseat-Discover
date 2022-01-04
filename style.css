@@ -120,4 +120,23 @@
             background-color: rgb(221, 215, 132);
             border-radius: 35pt;
         }
+
+        .continued {
+            text-align: center;
+            border-width: 5px;
+            border-style: dashed;
+            border-color: rgb(89, 89, 89);
+            border-radius: 25pt;
+            padding: 100pt;
+            padding-top: 25pt;
+            padding-bottom: 25pt;
+            margin-bottom: 20pt;
+            margin-top: 10pt;
+            margin-left: 175pt;
+            margin-right: 175pt;
+            background-color: rgb(208, 208, 208);
+            color: rgb(36, 36, 36);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+        }
         
