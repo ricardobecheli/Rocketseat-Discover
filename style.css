@@ -45,7 +45,20 @@
         
         }
 
-      
+      .well {
+        border-width: thick;
+        border-style: solid;
+        border-color: rgb(209, 61, 6);
+        padding: 20pt;
+        padding-top: 25pt;
+        padding-bottom: 25pt;
+        margin-bottom: 20pt;
+        margin-top: 10pt;
+        margin-left: 50pt;
+        margin-right: 100pt;
+        background-color: rgb(5, 5, 5);
+        color: rgb(141, 220, 62);
+      }
         
 
         
