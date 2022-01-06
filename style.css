@@ -1,6 +1,11 @@
 
         /* margins and padding made for 75% chrome browser view */
 
+        body {
+            
+            background-image: linear-gradient(chartreuse, rgb(170, 59, 250));
+        }
+
         p {
             font-size: 1.2rem;
             font-family: Arial, Helvetica, sans-serif;
