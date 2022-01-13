@@ -161,6 +161,14 @@
             font-size: 1.2rem;
         }
 
+
+
+        .topicos {
+            color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-size: 40px; padding-left: 230px; font-weight: bold; text-justify: auto;
+        }
+
+
+        
         .citations {
             background-image: linear-gradient(rgb(39, 0, 54), rgb(90, 5, 90));
             padding-left: 230px;
