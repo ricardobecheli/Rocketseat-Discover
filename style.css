@@ -3,7 +3,7 @@
 
         body {
             
-            background-image: linear-gradient(rgb(23, 196, 0), rgb(170, 59, 250));
+            background-image: linear-gradient(rgb(183, 170, 255), rgb(170, 59, 250));
         }
 
         h2 {
@@ -179,6 +179,8 @@
             padding-left: 230px;
             text-align: left;
             color: azure;
+            margin-left: 60px;
+            margin-right: 60px;
         }
         
 
