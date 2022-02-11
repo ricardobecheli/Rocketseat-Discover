@@ -307,16 +307,61 @@
         <h2>There are 3 kinds of citation syntax/tags:</h2>
 
         <ol>
-            <li>blockquote</li>
-            <li>cite</li>
-            <li>q</li>
+            <li><code>&lt;blockquote&gt;</code></li>
+            <li><code>&lt;cite&gt;</code></li>
+            <li><code>&lt;q&gt;</code></li>
         </ol>
 
-        <p>Explain blockquote here.</p>
+    <hr>
 
-        <p>Explain cite here.</p>
+        <ol style="margin-left: 70px; color: rgb(92, 238, 238);">
+            <li style="padding-bottom: 55px;">Bad example of <blockquote>Only this line here is in the tag</blockquote> and here out of the tag. </li>
+            <li style="padding-bottom: 55px;">Bad example of <cite>cite</cite> here.</li>
+            <li style="padding-bottom: 55px;">Bad example of "q" <q>here</q>.</li>
+            </ol>
 
-        <p>Explain "q" here.</p>
+    <hr>
+
+        <ol style="color: rgb(165, 253, 165);">
+
+            <li style="padding-bottom: 55px;">
+                <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+
+                    <p>In a good example of blockquote everything in a block - you could say a whole paragraph or a long text - must be inside the <code>&lt;blockquote&gt;</code> tag. It indents the block and indicates that an external text was cited. A good way to complement that is adding an information about the origin of the citation. This info <u>does not appear</u> in the HTML page, only in the code. The information will be done by an <strong><u>attribute</u></strong> called "<u>cite</u>" inside the blockquote opening tag (like we do with the <em>inline style</em>) and it's not to be confused with the <strong><u>element</u></strong> <code>&lt;cite&gt;</code> of item 2 below.</p>
+
+                    <p>Use CSS' (margin-left: 0;) to remove the indentation from the blockquote element.</p>
+
+                    <p>HTML Blockquote is a DOM  Object. You can access a blockquote element by using getElementById(). Example:</p>
+                    
+                    <p>var x = document.getElementById("myBlockquote");</p>
+
+                    <p>The Blockquote object also supports the standard properties and events.</p>
+                
+                </blockquote>
+            </li>
+
+
+            <li style="padding-bottom: 55px;">
+                <p>Good example of <cite>cite</cite> here. The HTML <code>&lt;cite&gt;</code> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.)</p>
+
+                <p> <a style="color: aqua;" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/cite" target="blank">MDN Web Docs (Mozilla) say:</a> <q>Tag <span style="color: red;">omission</span>:	None, both the starting and ending tag are mandatory.</q> (???)</p>
+
+                <p style="color: red;">First time I hear of TAG OMISSION.</p>
+            </li>
+
+
+            <li style="padding-bottom: 55px;">
+                <p>Good example of "q" <q>here</q>. Use <code>&lt;q&gt;</code> for inline, short quotations. Browsers normally insert quotation marks around the quotation, like <q>now</q>. And That's it!</p>
+
+            
+            </li>
+
+
+        </ol>   
+
+
+
+
 </div>
 <br>
 <br>

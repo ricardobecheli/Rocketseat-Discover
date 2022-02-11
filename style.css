@@ -24,6 +24,11 @@
             margin-right: 0px;
         }
 
+        code {
+            background-color: black;
+            color: lime;
+        }
+
         .intro {
             border-width: thick;
             border-style: solid;
@@ -176,7 +181,9 @@
         
         .citations {
             background-image: linear-gradient(rgb(39, 0, 54), rgb(90, 5, 90));
+            padding-top: 30px;
             padding-left: 230px;
+            padding-bottom: 30px;
             text-align: left;
             color: azure;
             margin-left: 60px;
