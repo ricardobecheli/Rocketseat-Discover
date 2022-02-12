@@ -6,6 +6,15 @@
             background-image: linear-gradient(rgb(183, 170, 255), rgb(170, 59, 250));
         }
 
+        .firstjs {
+            text-align: center;
+            background-image: linear-gradient(rgb(183, 170, 255), rgb(170, 59, 250));
+            padding: 50px;
+            margin-bottom: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
         h2 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: lighter;
@@ -17,11 +26,13 @@
         }
 
         header {
-            font-size: 8rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 6rem;
             color: rgb(12, 77, 82);
             text-align: center;
             margin-left: 0px;
             margin-right: 0px;
+
         }
 
         code {
@@ -37,9 +48,9 @@
             padding-top: 25pt;
             padding-bottom: 25pt;
             margin-bottom: 20pt;
-            margin-top: 10pt;
-            margin-left: 50pt;
-            margin-right: 300pt;
+            margin-top: 100pt;
+            margin-left: 250pt;
+            margin-right: 250pt;
             background-color: darkcyan;
             color: rgb(255, 255, 255);
             
@@ -50,6 +61,8 @@
             border-style: solid;
             border-color: rgb(209, 61, 6);
             padding: 100pt;
+            text-align: justify;
+            line-height: 160%;
             padding-top: 25pt;
             padding-bottom: 25pt;
             margin-bottom: 20pt;
@@ -68,8 +81,8 @@
         padding: 20pt;
         padding-top: 25pt;
         padding-bottom: 25pt;
-        margin-bottom: 20pt;
-        margin-top: 10pt;
+        margin-bottom: 40pt;
+        margin-top: 40pt;
         margin-left: 50pt;
         margin-right: 100pt;
         background-color: rgb(5, 5, 5);
@@ -189,5 +202,18 @@
             margin-left: 60px;
             margin-right: 60px;
         }
+
+        button {
+            padding: 20px;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(123, 190, 245);
+            color: rgb(4, 105, 29);
+            border-width: 15px;
+            border-radius: 20px;
+            border-color: rgb(151, 84, 214);
+            margin: auto;
+            }
+
         
        
