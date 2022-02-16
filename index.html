@@ -263,16 +263,6 @@
                     <p>
                         Attributes can also be boolean, like true, false, disabled.
                     </p>
-                <li><h2>Quotes</h2></li>
-                    <p>
-                        Double x Single - Using double quotes in attributes is better than the single ones because the last ones can be confused with English grammar signs, like <q>I'm</q> or <q>There's</q>, for instance. Note that Emmet itself provides us always with double quotes. This is one of the good practices in coding.
-                    </p>
-                <li><h2>Quotes - Omiting</h2></li>
-                    <p>
-                        Some attributes can work without quotes, like in the <q>a</q> tag: The hypertext will work without being between quotes, but it's not a good practice because if you add another attribute (like <q>target</q>, for instance) immediately following the unquoted hyperlink there can be a big conflict of interpretation depending on the user's browser. 
-                    </p>
-                    <P>See also "citations" below, after this review.</P>
-
 
         </ol>
 
@@ -309,6 +299,16 @@
 </div>
 
 <div class="citations">
+
+    <h2>Double x Single quotes</h2>
+    <p>
+         Using double quotes in attributes is better than the single ones because the last ones can be confused with English grammar signs, like <q>I'm</q> or <q>There's</q>, for instance. Note that Emmet itself provides us always with double quotes. This is one of the good practices in coding.
+    </p>
+<h2>Quotes - Omiting</h2>
+    <p>
+        Some attributes can work without quotes, like in the <q>a</q> tag: The hypertext will work without being between quotes, but it's not a good practice because if you add another attribute (like <q>target</q>, for instance) immediately following the unquoted hyperlink there can be a big conflict of interpretation depending on the user's browser. 
+    </p>
+
         <h2>There are 3 kinds of citation syntax/tags:</h2>
 
         <ol>
@@ -359,7 +359,7 @@
 
                 <p>Look at the interesting example they give:</p>
 
-                <figure>
+                <figure style="background-color: rgb(54, 85, 85); padding: 10px; margin-bottom: 30px; padding-bottom: 30px; margin-right: 600px; margin-left: 0%;">
                     <blockquote>
                         <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
                     </blockquote>
@@ -378,7 +378,9 @@
 
             </li>
 
-        </ol>   
+        </ol>
+        
+
 
 </div>
 
@@ -389,7 +391,19 @@
     </div>
 
 <div class="displaycode">
-    <h2>How to...</h2>
+    <h2>&lt;pre&gt; The <em>preformatted text</em> element</h2>
+
+        <figure>
+            <blockquote>
+                <p>The HTML element represents preformatted text which is to be presented exactly(*!!!) as written in the HTML file. The text is typically rendered using a non-proportional, or <a href="https://en.wikipedia.org/wiki/Monospaced_font" target="blank">monospaced</a>, font. Whitespace inside this element is displayed as written. <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">MDN Web Docs</a></cite></p>
+            </blockquote>
+        </figure>
+
+        <p>*!!! - It's not quite like that, as the very site continues:</p>
+
+        <p><q>If you have to display reserved characters such as <code>&lt;</code>, <code>&gt;</code>, <code>&amp;</code> and <code>"</code> within the &lt;pre&gt; tag, the characters must be <strong style="color: black;">escaped</strong> using their respective <strong style="color: black;">HTML entity</strong>.</q></p>
+
+        <h2>HTML entity</h2>
 
 
 
