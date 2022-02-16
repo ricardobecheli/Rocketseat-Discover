@@ -12,8 +12,19 @@
             padding: 50px;
             margin-bottom: 50px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
         }
+        
+        button {
+            padding: 20px;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(123, 190, 245);
+            color: rgb(4, 105, 29);
+            border-width: 15px;
+            border-radius: 20px;
+            border-color: rgb(151, 84, 214);
+            margin: auto;
+            }
 
         h2 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -201,19 +212,21 @@
             color: azure;
             margin-left: 60px;
             margin-right: 60px;
+            margin-bottom: 20pt;
         }
 
-        button {
-            padding: 20px;
-            font-size: 40px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: rgb(123, 190, 245);
-            color: rgb(4, 105, 29);
-            border-width: 15px;
-            border-radius: 20px;
-            border-color: rgb(151, 84, 214);
-            margin: auto;
-            }
+        .displaycode {
+            background-image: linear-gradient(rgb(163, 4, 226), rgb(253, 2, 253));
+            padding-top: 30px;
+            padding-left: 230px;
+            padding-bottom: 30px;
+            text-align: left;
+            color: azure;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 20pt;
+
+        }
 
 
 
