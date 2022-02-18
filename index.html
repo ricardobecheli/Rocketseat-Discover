@@ -374,7 +374,37 @@
 
 
             <li style="padding-bottom: 55px;">
-                <p>Good example of "q" <q>here</q>. Use <code>&lt;q&gt;</code> for inline, short quotations. Browsers normally insert quotation marks around the quotation, like <q>now</q>. And That's it!</p>
+                <p>Good example of <q>q</q> (applyed here) <q>and here</q>:</p>
+                    
+                <p>Use <code>&lt;q&gt;</code> for <strong>inline</strong>, short quotations. <q><em>This element is intended for short quotations that don't require paragraph breaks; for long quotations use the &lt;blockquote&gt; element</em></q>. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="blank" style="color: rgb(3, 192, 192);">MDN</a>
+                </p>
+
+                <p>Browsers normally insert quotation marks around the quotation, like <q>now</q>. And is that it?</p>
+
+                <p>No. This element may include global attributes. Therefore it can be combined with the <code>&lt;cite&gt;</code>, for instance.</p>
+                
+                <p>Again, note that the value of the <code>&lt;cite&gt;</code> attribute is a URL that <strong>designates a source</strong> document or message for the information quoted. This attribute is intended to point to information explaining the context or the reference for the quote. No more than that. </p>
+                
+                <p>I mean, no link is established. It's only an information that stays hidden from the user and works behind the scenes for SEO and other algorithm purposes.</p>
+
+                <p>All this said, something like this can be built with <code>&lt;q&gt;</code> and <code>&lt;cite&gt;</code> combined:</p>
+
+                <p style="color: rgb(199, 145, 250); text-indent: 30px;">According to Mozilla's website,
+                    <q
+                    cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0
+                    was released in 2004 and became a big success.</q></p>
+
+                <p>And the code is written as follows:</p>
+
+                <pre style="color: rgb(199, 145, 250);">
+
+                    &lt;p&gt;According to Mozilla's website,
+                        &lt;q
+                        cite="https://www.mozilla.org/en-US/about/history/details/"&gt;Firefox 1.0
+                        was released in 2004 and became a big success.&lt;/q&gt;&lt;/p&gt;  
+
+                </pre>
+                
 
             </li>
 
