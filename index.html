@@ -309,20 +309,24 @@
         Some attributes can work without quotes, like in the <q>a</q> tag: The hypertext will work without being between quotes, but it's not a good practice because if you add another attribute (like <q>target</q>, for instance) immediately following the unquoted hyperlink there can be a big conflict of interpretation depending on the user's browser. 
     </p>
 
-        <h2>There are 3 kinds of citation syntax/tags:</h2>
+        <h2>There are 3 kinds of citation syntax/tags (in fact I discovered more kinds that the course didn't mention - see items 4, 5 and 6):</h2>
 
         <ol>
             <li><code>&lt;blockquote&gt;</code></li>
             <li><code>&lt;cite&gt;</code></li>
             <li><code>&lt;q&gt;</code></li>
+            <p>(And now, the items I found at <a href="https://www.w3schools.com/html/html_quotation_elements.asp"  style="color: rgb(92, 238, 238);">w3schools - quotation elements</a>.)</p>
+            <li><code>&lt;abbr&gt;</code></li>
+            <li><code>&lt;address&gt;</code></li>
+            <li><code>&lt;bdo&gt;</code></li>
         </ol>
 
     <hr>
 
         <ol style="margin-left: 70px; color: rgb(92, 238, 238);">
-            <li style="padding-bottom: 55px;">Bad example of <blockquote>Only this line here is in the tag</blockquote> and here out of the tag. </li>
-            <li style="padding-bottom: 55px;">Bad example of <cite>cite</cite> here.</li>
-            <li style="padding-bottom: 55px;">Bad example of "q" <q>here</q>.</li>
+            <li style="padding-bottom: 55px;">Bad example of <blockquote>Only this line here is in the tag (so far so good but no links nor mention to the source)</blockquote> and here out of the tag. </li>
+            <li style="padding-bottom: 55px;">Bad example of <cite>cite</cite> here. (alone, without the source in the code)</li>
+            <li style="padding-bottom: 55px;">Bad example of "q" (keyboard quotation marks) <q>here</q> (code quotation marks). In fact the coded one is nor bad at all, it's just a quotation without any major semantic meaning.</li>
             </ol>
 
     <hr>
@@ -394,7 +398,7 @@
                     cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0
                     was released in 2004 and became a big success.</q></p>
 
-                <p>And the code is written as follows:</p>
+                <p>And the code is written as follows (for "Displaying Code" in details, see next topic, but take a glimpse of this for while):</p>
 
                 <pre style="color: rgb(199, 145, 250);">
 
@@ -404,8 +408,21 @@
                         was released in 2004 and became a big success.&lt;/q&gt;&lt;/p&gt;  
 
                 </pre>
-                
 
+            </li>
+
+            <li>
+                <p>&lt;abbr&gt; for Abbreviations</p>
+            </li>
+
+
+            <li>
+                <p>&lt;address&gt; for Contact Information</p>
+            </li>
+
+
+            <li>
+                <p>&lt;bdo&gt; for Bi-Directional Override</p>
             </li>
 
         </ol>
