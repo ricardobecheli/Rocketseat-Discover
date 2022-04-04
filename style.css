@@ -204,16 +204,25 @@
 
         
         .citations {
-            background-image: linear-gradient(rgb(39, 0, 54), rgb(90, 5, 90));
+            background-color: white;
             padding-top: 30px;
             padding-left: 230px;
             padding-bottom: 30px;
             padding-right: 100px;
             text-align: justify;
-            color: azure;
+            color: black;
             margin-left: 60px;
             margin-right: 60px;
             margin-bottom: 20pt;
+        }
+
+        .remake {
+            background-color: black;
+            color: white;
+            padding: 50px;
+            border-style: solid;
+            border-color: red;
+
         }
 
         .displaycode {
